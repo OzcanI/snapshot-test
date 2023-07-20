@@ -95,6 +95,7 @@ export const useSnapshotFunctions = () => {
         }),
       });
     } catch (e) {
+      //@ts-ignore
       console.log(e.message);
     }
   };
